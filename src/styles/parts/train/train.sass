@@ -1,10 +1,6 @@
-@import '_desktop'
-@import '_tablet' 
-@import '_mobile' 
-
-
 .animation-train
-  background-color: #00b300
+  position: relative
+  background: linear-gradient(to left,#66ff66, #80ff80, #99ff99)
   display: flex
   flex-direction: column
   align-items: center
@@ -24,17 +20,16 @@
     img
       width: 150px
   h1
-    font-family: "GrandHotel"
-    font-size: 60px
+    text-align: center
     display: block
     color:#663300
-  h4
+  h3
     color: #666633
     text-align: center
   .register-button
     margin-top: 20px
     padding: 8px 40px
-    font-size: 40px
+    font-size: 2.5rem
     background: rgba(51, 51, 0, 0.7)
     border: 2px solid rgba(51, 51, 0, 0.9)
     a
@@ -106,4 +101,8 @@
     transform: translateX(5000px)
   to
     transform: translateX(-19999px)
+
+@import '_desktop'
+@import '_tablet' 
+@import '_mobile' 
 

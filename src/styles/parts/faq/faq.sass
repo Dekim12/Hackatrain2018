@@ -1,21 +1,17 @@
-@import '_desktop'
-@import '_tablet'
-@import '_mobile'
-
 .faq
-    padding: 30px 50px
+    padding: 30px
     display: flex
     flex-direction: column
     align-items: center
-    background: #009933
+    background: linear-gradient(to right, #80ff80, #99ff99, #b3ffb3, #ccffcc)
+    // background:#80ff80
     h2
         margin-bottom: 20px
     .issues
-        width: 80%
+        width: 70%
         li 
             margin: 5px
-            .question   
-                width: 
+            .question    
                 padding: 15px
                 background: #2E8B57
                 cursor: pointer
@@ -23,11 +19,15 @@
             .question:hover
                 background: #3CB371
             .answer
-                background: #99ffe6
-                padding: 15px 50px
+                background: #b3ffb3
+                padding: 15px 30px
                 display: none
                 p
-                    font-size: 20px
+                    font-size: 1.25rem
                 
             .ansver-visibility
                 display: block
+
+@import '_desktop'
+@import '_tablet'
+@import '_mobile'

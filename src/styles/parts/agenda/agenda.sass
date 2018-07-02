@@ -1,19 +1,17 @@
-@import '_desktop'
-@import '_tablet'
-@import '_mobile'
-
+  
 .agenda
     display: flex
     flex-direction: column
     align-items: center
     padding: 30px 0
-    background: #00FF7F
+    background: linear-gradient(to right, #00cc66,  #00FF7F, #00ff7f)
+    // background: #00FF7F
     article
         display: flex
         justify-content: center
         flex-wrap: wrap
         .this-day
-            background: rgba(0, 0, 0, 0.5)
+            background: rgba(0, 102, 0, 0.9)
             width: 450px
             padding: 10px
             display: flex
@@ -22,8 +20,8 @@
             margin-right: 5%
             margin-left: 5%
             margin-top: 30px
-            h3
-                font-size: 28px
+            h4
+                font-size: 1.75rem
                 font-weight: bold
                 display: block
                 margin-bottom: 10px
@@ -34,12 +32,16 @@
                 ul
                     li
                         font-family: "Pacifico"
-                        font-size: 22px
+                        font-size: 1.375rem
                         color: white
                 .time
                     width: 125px
                     margin-right: 20px
                     font-weight: bold
                     font-style: italic
-                    
+
+@import '_desktop'
+@import '_tablet'
+@import '_mobile'  
+   
                     
